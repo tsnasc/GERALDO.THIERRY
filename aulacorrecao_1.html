@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autopeças</title>
+    <link rel="stylesheet" href="geral.css" media="all">
+    <link rel="stylesheet" href="tela.css" media="screen">
+    <link rel="stylesheet" href="impressao.css" media="print">
+    <style>
+        .container {
+            display: flex;
+            width: 10px;
+            height: 10px;
+            text-align: center;
+            font-size: 10em;            
+        }
+        h1 {
+            text-align:left;
+            font-size: 50px;
+        }
+        h3 {
+            text-align: left;
+            font-size: 25px;
+            font-weight: 100;
+            text-align: left;
+        }
+        strong {
+            font-weight: 900;
+        }
+        .avaliacao {
+            display: flex;
+            justify-content: space-around;
+            text-align:left;
+
+        }
+        h4 {
+            text-align:left;
+        }
+        #nota {
+            border-width: 2px;
+            border-style: solid;
+            border-color: white;
+            border-radius: 100px;
+            background-color: white;
+            color:blue;
+            font-size: 25px;
+            padding-left: 5px;
+            padding-right: 5px;
+            text-align:left;
+        }
+        #nota02 {
+            border-width: 2px;
+            border-style: solid;
+            border-color: white;
+            border-radius: 100px;
+            padding-right: 10px;
+            padding-left: 10px;
+            text-align:left;
+        }
+        body {
+            color: white;
+        } 
+        h2 {
+            color:black;
+            text-align: center;
+            padding: 30px;
+        }
+        .topico01 {
+            background-color: blue;
+        } 
+        .alimpecas {
+            display:flex;
+            flex-wrap: wrap;
+        }  
+        .pecas {
+            display:inline;
+            width: 125px;
+            height: 125px;
+        } 
+        p {
+            color:black;
+        } 
+        .imagem_principal {
+            /* position: relative;
+            top: 30px;
+            right: 30px; */ 
+            position:inherit;   
+            right: 500px;
+            top: 500px;  S
+           
+            
+        }
+        .flexbox {
+            position:relative;
+            top: 100%;
+        }
+        .carro {
+            display: flex;
+        }
+    
+            
+    </style>
+</head>
+<body>
+    <div class="carro">
+        <div class="topico01">
+            <div class="container"></div>
+            <h1>Chega de perder<br>clientes por falta de<br>peças!</h1>
+            <h3>Receba o seu pedido<strong>em até 24 horas!</strong> Tenha acesso<br> ao nosso estoque e aumente suas vendas com<strong> mais<br> de 200 mil peças à sua disposição.</strong></h3>
+            <div class="avaliacao"><h3 id="nota">EU QUERO MEU ACESSO</h3>
+            <h3 id="nota02">JÁ TENHO ACESSO</h3></div>
+            <h4>Fique tranquilo não vamos compartilhar  suas informações com ninguém.</h4>
+        
+        </div>
+        <div><img class="imagem_principal" src="https://conteudo.autoglass.com.br/hubfs/Calha%20de%20Chuva.gif"; width= 550px; height=550px alt="propagandas"></div>
+    </div>
+    <div>
+        <h2>Confira os produtos que vão garantir seu faturamento</h2>
+    </div>
+    <div class="alimpecas">
+        <div><img class="pecas" src="https://i.ibb.co/J26kGd2/retrovisor.png" alt="retrovisores"><p>retrovisor</p></div>
+        <div><img class="pecas" src="https://i.ibb.co/jh0xVtg/vidros.png" alt="vidros"><p>vidros</p></div>
+        <div><img class="pecas" src="https://i.ibb.co/ZgZMr4w/arrefecimento.png" alt="arrefecimento"><p>arrefecimento</p></div>
+        <div><img class="pecas" src="https://i.ibb.co/TYr9KJF/climatizacao.png" alt="climatizacao"><p>climatizacao</p></div>
+        <div><img class="pecas" src="https://i.ibb.co/dQSWL3P/iluminacao.png" alt="farol e iluminacao"><p>farol e iluminacao</p></div>
+        <div><img class="pecas" src="https://i.ibb.co/v3WfMLS/suspensao.png" alt="suspensao e amortecedores"><p>suspensao e amortecedores</p></div>
+        <div><img class="pecas" src="https://i.ibb.co/nP27Snz/direcao.png" alt="direcao"><p>direcao</p></div>
+        <div><img class="pecas" src="https://i.ibb.co/TmhPThp/parachoque.png" alt="para-choques e outros"><p>parachoques e outros</p></div>
+        <div><img class="pecas" src="https://i.ibb.co/f1C7JXR/lataria.png" alt="lataria"><p>lataria</p></div>
+        <div><img class="pecas" src="https://i.ibb.co/f00pLSX/parabarro.png" alt="para-barro"><p>para-barro</p></div>
+        <div><img class="pecas" src="https://i.ibb.co/8xrJYz3/acessorios.png" alt="acessorios"><p>Acessórios</p></div>
+        <div><img class="pecas" src="https://i.ibb.co/28GYkt4/adesivo-cla.png" alt="adesivo/cola"><p>Adesivo/Cola</p></div>
+        <div><img class="pecas" src="https://i.ibb.co/PQFKDKY/borrachas.png" alt="borrachas"><p>borrachas</p></div>
+        <div><img class="pecas" src="https://i.ibb.co/V9NJ2N0/ferramentas.png" alt="ferramentas"><p>ferramentas</p></div>
+    </div>    
+</body>
+</html>
+
